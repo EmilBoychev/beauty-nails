@@ -744,7 +744,7 @@ ul.social_icon li a:hover {
 
 /** contact section **/
 
-.contact {
+/* .contact {
      background: #fff;
      margin-top: 90px;
      position: relative;
@@ -812,7 +812,7 @@ ul.social_icon li a:hover {
 #request *::placeholder {
      color: #737272;
      opacity: 1;
-}
+} */
 
 
 /** end contact section **/
