@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 86px;
+    padding: 24px 60px;
+    background: #fff;
+}
+
+.logo a img {
+    z-index: 9999;
+    position: relative;
+}
+
+.logo::before {
+    position: absolute;
+    content: "";
+    background-color: #2e2d2d;
+    width: 385px;
+    height: 86px;
+    left: -75px;
+    top: -24px;
+}

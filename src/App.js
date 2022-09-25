@@ -6,10 +6,8 @@ import { About } from './components/About/About';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<> <About /> <Header /> </>} />
-
+      <Route path='/' element={<> <Header /> <About /></>} />
     </Routes>
-
 
   );
 }
