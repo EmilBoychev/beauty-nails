@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Header.css'
 
 
@@ -12,9 +12,9 @@ export const Header = () => {
                             <div className="full">
                                 <div className="center-desk">
                                     <div className="logo">
-                                        <NavLink to="#">
+                                        <Link to="#">
                                             <img src="images/logo.png" alt="#" />
-                                        </NavLink>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -35,29 +35,29 @@ export const Header = () => {
                                 <div className="collapse navbar-collapse" id="navbarsExample04">
                                     <ul className="navbar-nav mr-auto">
                                         <li className="nav-item ">
-                                            <NavLink className="nav-NavLink" to="#">
+                                            <Link className="nav-NavLink" to="/">
                                                 Home
-                                            </NavLink>
+                                            </Link>
                                         </li>
                                         <li className="nav-item active">
-                                            <NavLink className="nav-NavLink" to="#">
+                                            <Link className="nav-NavLink" to="/about">
                                                 About
-                                            </NavLink>
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className="nav-NavLink" to="#">
+                                            <Link className="nav-NavLink" to="#">
                                                 What we do
-                                            </NavLink>
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className="nav-NavLink" to="#">
+                                            <Link className="nav-NavLink" to="/pricing">
                                                 Pricing
-                                            </NavLink>
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className="nav-NavLink" to="#">
+                                            <Link className="nav-NavLink" to="/contact">
                                                 Contact Us
-                                            </NavLink>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -66,24 +66,24 @@ export const Header = () => {
                         <div className="col-md-2">
                             <ul className="social_icon">
                                 <li>
-                                    <NavLink to="#">
+                                    <Link to="#">
                                         <i className="fa fa-facebook" aria-hidden="true" />
-                                    </NavLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <NavLink to="#">
+                                    <Link to="#">
                                         <i className="fa fa-twitter" aria-hidden="true" />
-                                    </NavLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <NavLink to="#">
+                                    <Link to="#">
                                         <i className="fa fa-NavLinkedin" aria-hidden="true" />
-                                    </NavLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <NavLink to="#">
+                                    <Link to="#">
                                         <i className="fa fa-instagram" aria-hidden="true" />
-                                    </NavLink>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
