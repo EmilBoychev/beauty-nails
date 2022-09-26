@@ -5,6 +5,7 @@ import { Contact } from './components/Contact/Contact';
 import { WeDo } from './components/WeDo/WeDo';
 import { Banner } from './components/Banner/Banner';
 import { Pricing } from './components/Pricing/Pricing';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <About />
           <Pricing />
           <Contact />
+          <Footer />
         </>
       }
       />
