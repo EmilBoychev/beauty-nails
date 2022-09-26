@@ -55,7 +55,7 @@ export const Header = () => {
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-NavLink" to="/contact">
+                                            <Link className="nav-NavLink page-scroll" to="/Contact">
                                                 Contact Us
                                             </Link>
                                         </li>
