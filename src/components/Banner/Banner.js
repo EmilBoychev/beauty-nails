@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import './Banner.css'
 
 
 export const Banner = () => {
@@ -16,7 +17,7 @@ export const Banner = () => {
                             <div className="carousel-caption relative">
                                 <div className="row d_flex">
                                     <div className="col-md-6">
-                                        <img className="bann_img" src="images/banner_ing.jpg" alt="#" />
+                                        <img className="bann_img" src="https://www.linkpicture.com/q/banner_ing.jpg" alt="#" />
                                     </div>
                                     <div className="col-md-6">
                                         <span>01/03</span>
@@ -33,7 +34,7 @@ export const Banner = () => {
                             <div className="carousel-caption relative">
                                 <div className="row d_flex">
                                     <div className="col-md-6">
-                                        <img className="bann_img" src="images/banner_ing.jpg" alt="#" />
+                                        <img className="bann_img" src="https://www.linkpicture.com/q/banner_ing.jpg" alt="#" />
                                     </div>
                                     <div className="col-md-6">
                                         <span>02/03</span>
@@ -50,7 +51,7 @@ export const Banner = () => {
                             <div className="carousel-caption relative">
                                 <div className="row d_flex">
                                     <div className="col-md-6">
-                                        <img className="bann_img" src="images/banner_ing.jpg" alt="#" />
+                                        <img className="bann_img" src="https://www.linkpicture.com/q/banner_ing.jpg" alt="#" />
                                     </div>
                                     <div className="col-md-6">
                                         <span>03/03</span>
