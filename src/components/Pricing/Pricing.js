@@ -1,4 +1,4 @@
-
+import './Pricing.css'
 
 
 export const Pricing = () => {
