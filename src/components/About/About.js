@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import './About.css'
 
 export const About = () => {
     return (
@@ -22,7 +23,7 @@ export const About = () => {
                     <div className="col-md-6">
                         <div className="about_img">
                             <figure>
-                                <img src="images/about.png" alt="#" />
+                                <img src="https://www.linkpicture.com/q/about.png" alt="#" />
                             </figure>
                         </div>
                     </div>
