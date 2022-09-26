@@ -35,7 +35,7 @@ export const Footer = () => {
                         <div className="col-md-4 col-sm-6">
                             <h3>Subscribe</h3>
                             <form className="bottom_form">
-                                <Link className="right_btn" to="Javascript:void(0)"> <i className="fa fa-long-arrow-right" aria-hidden="true" /></Link>
+                                <Link className="right_btn" to=""> <i className="fa fa-long-arrow-right" aria-hidden="true" /></Link>
                                 <input className="enter" placeholder="Enter your email" type="text" name="Enter your email" />
                                 <p>There are many variations of passages </p>
                             </form>
