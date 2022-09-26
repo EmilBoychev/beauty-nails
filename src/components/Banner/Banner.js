@@ -21,9 +21,9 @@ export const Banner = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <span>01/03</span>
-                                        <h1>Milina nail Salon Creating Beauty</h1>
+                                        <h1>Eva nail Salon Creating Beauty</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo</p>
-                                        <Link className="get_btn" href="Javascript:void(0)" role="button">Get Appoinment</Link>
+                                        <Link className="get_btn" to="Javascript:void(0)" role="button">Get Appoinment</Link>
                                     </div>
                                 </div>
                             </div>
@@ -38,9 +38,9 @@ export const Banner = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <span>02/03</span>
-                                        <h1>Milina nail Salon Creating Beauty</h1>
+                                        <h1>Eva nail Salon Creating Beauty</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo</p>
-                                        <Link className="get_btn" href="Javascript:void(0)" role="button">Get Appoinment</Link>
+                                        <Link className="get_btn" to="Javascript:void(0)" role="button">Get Appoinment</Link>
                                     </div>
                                 </div>
                             </div>
@@ -55,19 +55,19 @@ export const Banner = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <span>03/03</span>
-                                        <h1>Milina nail Salon Creating Beauty</h1>
+                                        <h1>Eva nail Salon Creating Beauty</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo</p>
-                                        <Link className="get_btn" href="Javascript:void(0)" role="button">Get Appoinment</Link>
+                                        <Link className="get_btn" to="Javascript:void(0)" role="button">Get Appoinment</Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <Link className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <Link className="carousel-control-prev" to="#myCarousel" role="button" data-slide="prev">
                         <i className="fa fa-long-arrow-left" aria-hidden="true" />
                         <span className="sr-only">Previous</span>
                     </Link>
-                    <Link className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <Link className="carousel-control-next" to="#myCarousel" role="button" data-slide="next">
                         <i className="fa fa-long-arrow-right" aria-hidden="true" />
                         <span className="sr-only">Next</span>
                     </Link>

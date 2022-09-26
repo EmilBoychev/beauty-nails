@@ -13,7 +13,7 @@ export const Header = () => {
                                 <div className="center-desk">
                                     <div className="logo">
                                         <Link to="#">
-                                            <img src="" alt="#" />
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5-e4DPJDo582lTB4SjN2ElKNUyWx6PzwoPw&usqp=CAU" alt="#" />
                                         </Link>
                                     </div>
                                 </div>
