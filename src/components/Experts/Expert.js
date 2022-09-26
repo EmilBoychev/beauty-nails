@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import './Expert.css'
 
 export const Experts = () => {
     return (
@@ -48,7 +49,7 @@ export const Experts = () => {
                                 </div>
                             </div>
                             <div className="col-md-12">
-                                <Link className="read_more mar_top exper" to="Javascript:void(0)"> Read More</Link>
+                                <Link className="read_more mar_top exper" to=""> Read More</Link>
                             </div>
                         </div>
                     </div>

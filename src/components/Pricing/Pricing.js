@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Pricing.css'
 
 
@@ -16,7 +17,7 @@ export const Pricing = () => {
                                 <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
                             </div>
                         </div>
-                        <a className="read_more mar_top" href="Javascript:void(0)"> Book Now</a>
+                        <Link className="read_more mar_top" to=""> Book Now</Link>
                     </div>
                     <div className="col-md-4">
                         <div className="pricing_box">
@@ -28,7 +29,7 @@ export const Pricing = () => {
                                 <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
                             </div>
                         </div>
-                        <a className="read_more mar_top" href="Javascript:void(0)"> Book Now</a>
+                        <Link className="read_more mar_top" to=""> Book Now</Link>
                     </div>
                     <div className="col-md-4">
                         <div className="pricing_box">
@@ -40,7 +41,7 @@ export const Pricing = () => {
                                 <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
                             </div>
                         </div>
-                        <a className="read_more mar_top" href="Javascript:void(0)"> Book Now</a>
+                        <Link className="read_more mar_top" to=""> Book Now</Link>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,69 @@
+.experts {
+    background-color: #fff;
+    padding: 90px 0 147px 0;
+    position: relative;
+}
+
+.experts .titlepage {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.experts .experts_box {
+    text-align: left;
+    background-color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+.experts .experts_box .experts_img {
+    overflow: hidden;
+}
+
+.experts .experts_box .experts_img figure {
+    margin: 0;
+}
+
+.experts .experts_box .experts_img figure img {
+    width: 100%;
+    transition: all .5s;
+    border-top: #e2e2e2 solid 20px;
+    border-bottom: #e2e2e2 solid 20px;
+    border-left: #e2e2e2 solid 30px;
+    border-right: #e2e2e2 solid 30px;
+}
+
+#exp:hover .experts_img figure img {
+    border-top: #2e2e2e solid 20px;
+    border-bottom: #2e2e2e solid 20px;
+    border-left: #2e2e2e solid 30px;
+    border-right: #2e2e2e solid 30px;
+}
+
+.experts .experts_box .meet {
+    padding: 33px 30px;
+    text-align: center;
+}
+
+.experts .experts_box .meet h3 {
+    color: #343434;
+    font-size: 25px;
+    line-height: 20px;
+    padding-bottom: 12px;
+    transition: ease-in all 0.5s;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.experts .experts_box .meet p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.exper {
+    max-width: 171px;
+    height: 47px;
+    padding: 9px 0;
+    margin-top: 10px !important;
+    margin-bottom: 0;
+}

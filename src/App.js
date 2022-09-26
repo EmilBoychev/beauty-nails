@@ -6,6 +6,7 @@ import { WeDo } from './components/WeDo/WeDo';
 import { Banner } from './components/Banner/Banner';
 import { Pricing } from './components/Pricing/Pricing';
 import { Footer } from './components/Footer/Footer';
+import { Experts } from './components/Experts/Expert';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <WeDo />
           <About />
           <Pricing />
+          <Experts />
           <Contact />
           <Footer />
         </>
