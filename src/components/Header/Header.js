@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll"
 import './Header.css'
 
 
@@ -12,7 +13,7 @@ export const Header = () => {
                             <div className="full">
                                 <div className="center-desk">
                                     <div className="logo">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5-e4DPJDo582lTB4SjN2ElKNUyWx6PzwoPw&usqp=CAU" alt="#" />
                                         </Link>
                                     </div>
@@ -32,30 +33,33 @@ export const Header = () => {
                                 >
                                     <span className="navbar-toggler-icon" />
                                 </button>
+                                <nav>
+
+                                </nav>
                                 <div className="collapse navbar-collapse" id="navbarsExample04">
                                     <ul className="navbar-nav mr-auto">
                                         <li className="nav-item ">
-                                            <Link className="nav-NavLink" to="/">
+                                            <Link className="nav-NavLink" to="home">
                                                 Home
                                             </Link>
                                         </li>
                                         <li className="nav-item active">
-                                            <Link className="nav-NavLink" to="/about">
+                                            <Link className="nav-NavLink" to="about" >
                                                 About
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-NavLink" to="#">
+                                            <Link className="nav-NavLink" to="we_do">
                                                 What we do
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-NavLink" to="/pricing">
+                                            <Link className="nav-NavLink" to="pricing">
                                                 Pricing
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-NavLink page-scroll" to="/Contact">
+                                            <Link className="nav-NavLink page-scroll" to="contact">
                                                 Contact Us
                                             </Link>
                                         </li>

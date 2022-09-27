@@ -25,6 +25,10 @@
     float: right;
     padding: 0;
 }
+.nav-NavLink {
+    cursor: pointer;
+    
+}
 
 .navigation.navbar-dark .navbar-nav .nav-item {
     padding: 8px 20px;

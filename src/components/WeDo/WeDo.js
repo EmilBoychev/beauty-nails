@@ -1,6 +1,6 @@
-import './WeDo.css'
+import './Wedo.css'
 
-export const WeDo = () => {
+export const Wedo = () => {
     return (
         <div className="we_do slin">
             <div className="container">
