@@ -7,6 +7,7 @@ import { Banner } from './components/Banner/Banner';
 import { Pricing } from './components/Pricing/Pricing';
 import { Footer } from './components/Footer/Footer';
 import { Experts } from './components/Experts/Expert';
+import { Error404 } from './components/Error404/Error404';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         </>
       }
       />
+
+      <Route path='*' element={<Error404 />} />
     </Routes>
 
   );
