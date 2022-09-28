@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## App hosted https://beauty-nails-e53e2.web.app
+
 ### `npm start`
 
 Runs the app in the development mode.\
