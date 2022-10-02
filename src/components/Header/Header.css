@@ -6,6 +6,7 @@
 }
 
 .logo a img {
+    margin-left: -21%;
     margin-top: -8.5%;
     z-index: 9999;
     position: relative;
