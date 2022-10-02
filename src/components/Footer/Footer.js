@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
+
 import './Footer.css'
 
 export const Footer = () => {
@@ -25,11 +26,11 @@ export const Footer = () => {
                         <div className="col-md-2 col-sm-6">
                             <h3>Useful Link</h3>
                             <ul className="link_menu">
-                                <li><Link to="index.html">Home</Link></li>
-                                <li><Link to="about.html"> About</Link></li>
-                                <li><Link to="we-do.html">What we do</Link></li>
-                                <li className="active"><Link to="pricing.html">Pricing</Link></li>
-                                <li><Link to="contact.html">Contact Us</Link></li>
+                                <li><Link to="banner_main">Home</Link></li>
+                                <li><Link to="about"> About</Link></li>
+                                <li><Link to="we-do">What we do</Link></li>
+                                <li className="active"><Link to="pricing">Pricing</Link></li>
+                                <li><Link to="contact">Contact Us</Link></li>
                             </ul>
                         </div>
                         <div className="col-md-4 col-sm-6">

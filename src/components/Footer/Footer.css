@@ -68,7 +68,12 @@ ul.link_menu li a {
 
 ul.link_menu li a:hover {
     color: #fa8c17;
+    cursor: pointer;
 }
+ul.link_menu { 
+    color: #fff;
+}
+
 
 .bottom_form {
     display: flex;
