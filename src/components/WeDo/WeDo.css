@@ -20,6 +20,8 @@
 }
 .we_box i:hover{
     transform: scale(1.2);
+    transition: all .5s;
+
 
 }
 .we_box {

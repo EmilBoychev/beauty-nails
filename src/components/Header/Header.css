@@ -87,5 +87,6 @@ ul.social_icon li a:hover {
 }
 .navbar-nav li:hover{
     transform: scale(1.2);
+    transition: all .5s;
     
 }
