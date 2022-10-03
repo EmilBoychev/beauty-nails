@@ -3,6 +3,7 @@
     padding-bottom: 147px;
     background-color: #fff;
     position: relative;
+    
 }
 
 .slin::before {
@@ -15,11 +16,17 @@
     height: 147px;
     right: 15%;
     width: 100%;
+    
 }
+.we_box i:hover{
+    transform: scale(1.2);
 
+}
 .we_box {
     text-align: center;
     margin-bottom: 30px;
+    
+    
 }
 
 .we_box i {
@@ -32,6 +39,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    
 }
 
 .we_box h3 {

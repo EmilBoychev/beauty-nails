@@ -13,16 +13,12 @@ export const Banner = () => {
         if (slide >= 2) {
             setSlide(state => state = 2)
         }
-
-        console.log(slide);
     }
     const prevButtonHandler = () => {
         setSlide(state => Number(state) - 1);
         if (slide <= 0) {
             setSlide(state => state = 0);
         }
-
-        console.log(slide);
     }
 
     return (
